@@ -14,7 +14,7 @@ Follow these steps to run the project in under 2 minutes:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR-GITHUB-USERNAME/news-system.git
+   git clone https://github.com/iugzxcvbnm-dot/news-system2026.git
    cd news-system
 
   2.  Build and start the application:
