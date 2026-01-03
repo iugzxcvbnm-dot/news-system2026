@@ -14,6 +14,9 @@ RUN docker-php-ext-install pdo pdo_mysql
 
 # نسخ ملفات المشروع إلى مجلد الويب
 COPY src/ /var/www/html/
+RUN chmod -R 777 /var/www/html/uploads
+
+
 
 # فتح المنفذ 80 (المنفذ الافتراضي لـ Apache)
 EXPOSE 80
